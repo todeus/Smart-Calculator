@@ -13,7 +13,10 @@ def main():
         if string == "/exit":
             print("Bye!")
             break
-        result(string)
+        elif string == "/help":
+            print("The program calculates the sum of numbers")
+        else:
+            result(string)
 
 
 if __name__ == "__main__":
